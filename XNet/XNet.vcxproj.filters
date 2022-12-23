@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="entry.cpp" />
+    <ClCompile Include="XNet.cpp">
+      <Filter>XNet</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\xnet\pcap_device.c">
+      <Filter>lib\xnet</Filter>
+    </ClCompile>
+    <ClCompile Include="driver\pcap.cpp">
+      <Filter>driver</Filter>
+    </ClCompile>
+    <ClCompile Include="network\arp.cpp">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="network\ip.cpp">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="transport\icmp.cpp">
+      <Filter>transport</Filter>
+    </ClCompile>
+    <ClCompile Include="transport\udp.cpp">
+      <Filter>transport</Filter>
+    </ClCompile>
+    <ClCompile Include="transport\tcp.cpp">
+      <Filter>transport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\lib\CUtils\container\array.c">
+      <Filter>CUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\lib\CUtils\container\AVLTree.c">
+      <Filter>CUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\lib\CUtils\container\list.c">
+      <Filter>CUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\lib\CUtils\container\object.c">
+      <Filter>CUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\lib\CUtils\container\queue.c">
+      <Filter>CUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\lib\CUtils\container\SinglyList.c">
+      <Filter>CUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\lib\CUtils\container\vector.c">
+      <Filter>CUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="datalink\ethernet.cpp">
+      <Filter>datalink</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="lib">
+      <UniqueIdentifier>{e1aae06a-3832-4e0a-b38e-1b73991a9184}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\xnet">
+      <UniqueIdentifier>{402f02c6-2035-4ce7-82c6-476691531128}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver">
+      <UniqueIdentifier>{657032ce-21d7-4a52-b6ab-a7e4ad8d9699}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network">
+      <UniqueIdentifier>{b097a396-837a-4963-b681-1212961077b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="transport">
+      <UniqueIdentifier>{ae871fc5-dd0b-4f2c-b4a4-c17f25ab965f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XNet">
+      <UniqueIdentifier>{629f3c54-05c2-4ec7-bbd1-d5fa3dcdc037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUtils">
+      <UniqueIdentifier>{985e8377-ec06-4fca-8912-c8c1b2b1a06d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="datalink">
+      <UniqueIdentifier>{032ee89c-3bc1-4977-ab8a-4b98be118eb2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="XNet.h">
+      <Filter>XNet</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\xnet\pcap_device.h">
+      <Filter>lib\xnet</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\NetDriver.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="network\arp.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="network\ip.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="transport\icmp.h">
+      <Filter>transport</Filter>
+    </ClInclude>
+    <ClInclude Include="transport\udp.h">
+      <Filter>transport</Filter>
+    </ClInclude>
+    <ClInclude Include="transport\tcp.h">
+      <Filter>transport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\lib\CUtils\container\array.h">
+      <Filter>CUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\lib\CUtils\container\AVLTree.h">
+      <Filter>CUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\lib\CUtils\container\list.h">
+      <Filter>CUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\lib\CUtils\container\object.h">
+      <Filter>CUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\lib\CUtils\container\queue.h">
+      <Filter>CUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\lib\CUtils\container\SinglyList.h">
+      <Filter>CUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\lib\CUtils\container\vector.h">
+      <Filter>CUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="datalink\ethernet.h">
+      <Filter>datalink</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
